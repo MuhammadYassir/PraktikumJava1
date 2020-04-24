@@ -8,5 +8,11 @@ public class DataType{
   int targetTahunKuliah = 4;
   boolean tampan = true;
 
+  System.out.println("Nama Depan :" + namaDepan);
+  System.out.println("Nama Tengah :" + namaTengah);
+  System.out.println("Nama Belakang :" + namaBelakang);
+  System.out.println("Usia :" + usia);
+  System.out.println("Target Kuliah :" + targetTahunKuliah +" tahun");
+  System.out.println("Tampan :" + tampan);
  }
 }

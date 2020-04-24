@@ -1,3 +1,5 @@
+import java.text.spi.BreakIteratorProvider;
+
 public class Main {
     public static void main(String[] args) {
         String namaDepan = "Muhammad";
@@ -18,12 +20,12 @@ public class Main {
         System.out.println(namaLengkap.indexOf("NIS"));
         System.out.println(namaLengkap.substring(5));
         System.out.println(namaLengkap.substring(5,12));
-        System.out.println(namaLengkap.replace( target: "Zi", replacement: "Barr"));
+        System.out.println(namaLengkap.replace("Zi","Barr"));
         System.out.println(namaLengkap.toUpperCase());
         System.out.println(namaLengkap.toLowerCase());
         System.out.println(namaLengkap.charAt(6));
 
-        String[] namaArray = namaLengkap.split( regex: " ");
+        String[] namaArray = namaLengkap.split(  " ");
 
         for(String nama : namaArray){
             System.out.println(nama);

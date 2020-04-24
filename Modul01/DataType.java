@@ -19,6 +19,7 @@ public class DataType{
   usia = scanner.nextInt();
   System.out.print("Tampan? : ");
   tampan = scanner.nextBoolean();
+  namaBelakang = JOptionPane.showInputDialog("Nama Belakang : ");
 
   System.out.println("----------OUTPUT------------");
   System.out.println("Nama Depan :" + namaDepan);

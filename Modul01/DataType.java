@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class DataType{
  public static void main(String[]args){
 
@@ -14,5 +16,7 @@ public class DataType{
   System.out.println("Usia :" + usia);
   System.out.println("Target Kuliah :" + targetTahunKuliah +" tahun");
   System.out.println("Tampan :" + tampan);
+
+  JOptionPane.showMessageDialog(null."Hai, " + namaDepan + namaTengah + namaBelakang);
  }
 }
